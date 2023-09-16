@@ -57,7 +57,7 @@ const MusicPage = () => {
     <div>
       <Heading
         title="Generador"
-        description="Crea música sin copyright."
+        description="By Wolfgang Studios"
         icon={Music}
         iconColor="text-grey-500"
         bgColor="bg-gray-600/10"
@@ -67,18 +67,7 @@ const MusicPage = () => {
           <form 
             onSubmit={form.handleSubmit(onSubmit)} 
             className="
-              rounded-lg 
-              border 
-              w-full 
-              p-4 
-              px-3 
-              md:px-6 
-              focus-within:shadow-sm
-              grid
-              grid-cols-12
-              gap-2
-            "
-          >
+              rounded-lg border w-full p-4 px-3 md:px-6 focus-within:shadow-sm grid grid-cols-12 gap-2">
             <FormField
               name="prompt"
               render={({ field }) => (

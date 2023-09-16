@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Image from "next/image"
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -34,7 +34,7 @@ export const LandingContent = () => {
   return (
     <div className="px-10 pb-20 mt-40">
       <div className="items-center gap-x-2">
-       <h2 className="text-4xl sm:text-8xl md:text-6xl lg:text-5xl space-y-3 font-extrabold text-white mb-5">About Us</h2>
+       <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-4xl space-y-3 font-extrabold text-white mb-5">Sobre Nosotros</h2>
        <div className="lg:flex">
         <p className="text-white mb-10 w-50 text-1xs lg:text-2xl lg:w-1/2">Somos una plataforma que utiliza la IA para crear música personalizada y única para el usuario, fundada en 2021 en Barcelona con el objetivo de que cualquier persona pueda hacer su propia música sin ningún conocimiento previo, desde casa, con cualquier dispositivo.</p>
          <div className="relative h-48 w-1/1 mb-60 md:display-none lg:w-1/2 lg:h-64 grid lg:grid-cols-2">

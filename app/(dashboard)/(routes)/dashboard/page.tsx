@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowRight, Music } from "lucide-react";
+import { ArrowRight, Music, Store } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const tools =[
@@ -12,6 +12,13 @@ const tools =[
     color: "text-gray-500",
     bgColor: "bg-gray-200",
     href: "/music"
+  },
+  {
+    label: "Marketplace",
+    icon: Store,
+    color: "text-gray-500",
+    bgColor: "bg-gray-200",
+    href: "/marketplace"
   }
 ]
 
@@ -21,7 +28,7 @@ const DashboardPage = () => {
     <div>
       <div className="mb-8 space-y-4">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center">
-           Explora el poder de la IA
+           Descubre Nuestra Plataforma
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
           Moozart AI - by Wolfgang Studios
