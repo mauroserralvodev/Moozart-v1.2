@@ -49,7 +49,7 @@ export const LandingContent = () => {
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-40">Progreso Startup</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-gray-200">
+          <Card key={item.description} className="bg-gray-100 border-none">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
@@ -64,7 +64,7 @@ export const LandingContent = () => {
           </Card>
         ))}
       </div>
-      <h3 className="text-center text-1xl text-white mt-60 mb-0 w-100 h-1 bg-white rounded-lg bg-gradient-to-r from-gray-500 to-gray-300">©2023 Moozart AI - All rights reserved - by Wolfgang Studios</h3>
+      <h3 className="text-center text-1xl text-white mt-60 mb-0 w-100 h-1 bg-white rounded-lg bg-gradient-to-r from-gray-400 to-gray-300">©2023 Moozart AI - All rights reserved - by Wolfgang Studios</h3>
       <h3 className="text-center text-2xl text-black mt-10 mb-0 w-100 font-bold">Una Plataforma desarrollada por Wolfgang Studios</h3>
       <h3 className="text-center text-1xl text-black mt-0 mb-0 w-100">©2023 Moozart AI - All rights reserved</h3>
     </div>
