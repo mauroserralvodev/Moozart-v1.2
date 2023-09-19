@@ -3,4 +3,4 @@ const nextConfig = {}
 
 module.exports = nextConfig
 
-swcMinify: false
+swcMinify: true
