@@ -35,7 +35,7 @@ const DashboardPage = () => {
     <div>
       <div className="mb-8 space-y-4">
             <h2 className="text-3xl md:text-5xl font-extrabold text-center mt-10">
-               Descubre Nuestra Plataforma <h2 className="text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500 mb-10">"Elevate Your Sound"</h2>
+               Descubre Nuestra Plataforma <h2 className="text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500 mb-10">Elevate Your Sound</h2>
             </h2>
         </div>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">
