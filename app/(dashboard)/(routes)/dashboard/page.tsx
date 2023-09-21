@@ -2,23 +2,30 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowRight, Music, Store } from "lucide-react";
+import { ArrowRight, Music, Store, Wallet } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const tools =[
   {
     label: "Generador",
     icon: Music,
-    color: "text-gray-500",
-    bgColor: "bg-gray-200",
+    color: "text-gray-900",
+    bgColor: "bg-gray-100",
     href: "/music"
   },
   {
     label: "Marketplace",
     icon: Store,
-    color: "text-gray-500",
-    bgColor: "bg-gray-200",
+    color: "text-gray-900",
+    bgColor: "bg-gray-100",
     href: "/marketplace"
+  },
+  {
+    label: "Crypto",
+    icon: Wallet,
+    color: "text-gray-900",
+    bgColor: "bg-gray-100",
+    href: "/crypto"
   }
 ]
 
@@ -27,20 +34,17 @@ const DashboardPage = () => {
   return (
     <div>
       <div className="mb-8 space-y-4">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center">
-           Descubre Nuestra Plataforma
-        </h2>
-        <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-          Moozart AI - by Wolfgang Studios
-        </p>
-      </div>
+            <h2 className="text-3xl md:text-5xl font-extrabold text-center mt-10">
+               Descubre Nuestra Plataforma <h2 className="text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500 mb-10">"Elevate Your Sound"</h2>
+            </h2>
+        </div>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">
         {tools.map((tool) => (
           <Card 
           onClick={() => router.push(tool.href)}
           key={tool.href}
-          className="p-4 border-none flex items-center 
-          justify-between shadow-lg hover:shadow-md transition cursor-pointer"
+          className="p-4 border-none flex items-center font-semiblod
+          justify-between shadow-lg bg-gray-100 hover:bg-white transition cursor-pointer m-2"
           > 
           <div className="flex items-center gap-x-4">
             <div className={cn("p-2 w-fit rounded-md", tool.bgColor)}>

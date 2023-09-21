@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Globe2, LayoutDashboard, Music, Settings, Store } from "lucide-react";
+import { Globe2, LayoutDashboard, Music, Settings, Store, Wallet } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 const routes = [
@@ -18,6 +18,12 @@ const routes = [
     label: "Marketplace",
     icon: Store,
     href: "/marketplace",
+    color: "gradient-to-r from-blue-600 to-blue-800",
+  },
+  {
+    label: "Crypto",
+    icon: Wallet,
+    href: "/crypto",
     color: "gradient-to-r from-blue-600 to-blue-800",
   },
   {

@@ -34,7 +34,7 @@ export const LandingContent = () => {
   return (
     <div className="px-10 pb-20 mt-40">
       <div className="overflow-hidden">
-        <div className="container-1 lg:w-1/2 md:w-1/2 sm:w-1/1 float-left">
+        <div className="container-1 lg:w-1/2 md:w-1/2 sm:w-1/1 float-left m-2">
            <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-4xl space-y-3 font-extrabold text-black mb-5">Sobre Nosotros</h2>
            <div className="lg:flex">
            <p className="text-black mb-10 w-50 text-1xs lg:text-2xl lg:w-1/1">Somos una plataforma que utiliza la IA para crear música personalizada y única para el usuario, fundada en 2021 en Barcelona con el objetivo de que cualquier persona pueda hacer su propia música sin ningún conocimiento previo, desde casa, con cualquier dispositivo.</p>
