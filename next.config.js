@@ -8,5 +8,8 @@ const nextConfig = {
       ]
     },
   }
-  
+
+export default ContextProviders
   module.exports = nextConfig
+
+  
