@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
       domains: [
-        "googleusercontent.com",
+        "moozart-v1-2.vercel.app",
         "oaidalleapiprodscus.blob.core.windows.net",
         "cdn.openai.com"
       ]
