@@ -66,8 +66,7 @@ const MusicPage = () => {
         <Form {...form}>
           <form 
             onSubmit={form.handleSubmit(onSubmit)} 
-            className="
-              rounded-lg border w-full p-4 px-3 md:px-6 focus-within:shadow-sm grid grid-cols-12 gap-2">
+            className="rounded-lg border w-full p-4 px-3 md:px-6 focus-within:shadow-sm grid grid-cols-12 gap-2">
             <FormField
               name="prompt"
               render={({ field }) => (
@@ -83,7 +82,7 @@ const MusicPage = () => {
                 </FormItem>
               )}
             />
-            <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
+            <Button className="bg-black col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
               Crear
             </Button>
           </form>

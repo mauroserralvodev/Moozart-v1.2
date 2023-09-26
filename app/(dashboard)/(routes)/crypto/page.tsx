@@ -4,7 +4,7 @@ import { Empty } from "@/components/ui/empty";
 
 const Error = () => {
   return ( 
-    <Empty label="Sitio web en obras" />
+    <Empty label="Sitio web en obras." />
    );
 }
  
