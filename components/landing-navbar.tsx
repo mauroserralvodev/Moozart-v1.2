@@ -17,7 +17,7 @@ export const LandingNavbar = () => {
     <nav className="p-4 bg-white flex items-center justify-between">
       <Link href="/" className="flex items-center">
         <div className="relative h-10 w-32 mr-10">
-          <Image fill alt="Logo" src="/Logo white moozart.png" />
+          <Image fill alt="Logo" src="/logo.png" />
         </div>
         <h1 className={cn("text-2xl font-bold text-white", font.className)}>
           
