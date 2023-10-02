@@ -9,7 +9,9 @@ const LandingPage = () => {
       <LandingNavbar />
       <LandingHero />
       <LandingContent />
+      <div className="pb-2">
       <LandingFooter />
+      </div>
     </div>
    );
 }

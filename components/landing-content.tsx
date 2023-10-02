@@ -56,11 +56,11 @@ export const LandingContent = () => {
               <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Usuarios</dd>
           </div>
           <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+850k</dt>
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+450k</dt>
               <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Canciones generadas</dd>
           </div>
           <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+100k</dt>
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+70k</dt>
               <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Transaciones Crypto</dd>
           </div>
       </dl>
@@ -71,7 +71,7 @@ export const LandingContent = () => {
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-40">Progreso Startup</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-gray-100 border-none shadow">
+          <Card key={item.description} className="bg-gray-100 border-none">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
