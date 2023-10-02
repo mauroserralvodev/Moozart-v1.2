@@ -33,24 +33,45 @@ const testimonials = [
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20 mt-40">
-      <div className="overflow-hidden">
-        <div className="container-1 lg:w-1/2 md:w-1/2 sm:w-1/1 float-left m-2">
-           <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-4xl space-y-3 font-extrabold text-black mb-5">Sobre Nosotros</h2>
-           <div className="lg:flex">
-           <p className="text-black mb-10 w-50 text-1xs lg:text-2xl lg:w-1/1">Somos una plataforma que utiliza la IA para crear música personalizada y única para el usuario, fundada en 2021 en Barcelona con el objetivo de que cualquier persona pueda hacer su propia música sin ningún conocimiento previo, desde casa, con cualquier dispositivo.</p>
+      <section className="bg-white dark:bg-gray-900">
+    <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="mr-auto place-self-center lg:col-span-7">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre Nosotros</h1>
+            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
+            <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                Saber más
+            </a> 
         </div>
-      
-        </div>
-        <div className="container-2 w-1/1 lg:float-right md:float-right sm:float-none justify-center">
-           <div className="relative md:display-none lg:w-64 lg:h-64 md:w-64 md:h-64 sm:w-1/1 sm:h-1/1">
-             <Image fill alt="Mockup" src="/persona.png" />
-            </div>
-         </div>
-      </div>
+        <div className="pl:20 pr:0 hidden lg:mt-0 lg:col-span-5 lg:flex pl-40">
+            <img src="/persona.png" alt="mockup"/>
+        </div>                
+    </div>
+</section>
+
+<section className="bg-white dark:bg-gray-900 mt-18 mb-18">
+  <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+      <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
+          <div className="flex flex-col items-center justify-center">
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+12k</dt>
+              <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Usuarios</dd>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+850k</dt>
+              <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Canciones generadas</dd>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+100k</dt>
+              <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Transaciones Crypto</dd>
+          </div>
+      </dl>
+  </div>
+</section>
+
+<section className="mb-0">
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-40">Progreso Startup</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-gray-100 border-none">
+          <Card key={item.description} className="bg-gray-100 border-none shadow">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
@@ -65,9 +86,8 @@ export const LandingContent = () => {
           </Card>
         ))}
       </div>
-      <h3 className="text-center text-1xl text-white mt-60 mb-0 w-100 h-1 bg-white rounded-lg bg-gradient-to-r from-gray-400 to-gray-300">©2023 Moozart AI - All rights reserved - by Wolfgang Studios</h3>
-      <h3 className="text-center text-2xl text-black mt-10 mb-0 w-100 font-bold">Una Plataforma desarrollada por Wolfgang Studios</h3>
-      <h3 className="text-center text-1xl text-black mt-0 mb-0 w-100">©2023 Moozart AI - All rights reserved</h3>
-    </div>
+</section>
+
+  </div>
   )
 }
