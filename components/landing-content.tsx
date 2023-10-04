@@ -48,7 +48,29 @@ export const LandingContent = () => {
     </div>
 </section>
 
-<section className="bg-white dark:bg-gray-900 mt-18 mb-18">
+
+<section className="mb-0">
+      <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-20">Progreso Startup</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {testimonials.map((item) => (
+          <Card key={item.description} className="bg-white border border-gray-200 shadow-md">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-x-2">
+                <div>
+                  <p className="text-lg">{item.name}</p>
+                  <p className="text-zinc-400 text-sm">{item.title}</p>
+                </div>
+              </CardTitle>
+              <CardContent className="pt-4 px-0">
+                {item.description}
+              </CardContent>
+            </CardHeader>
+          </Card>
+        ))}
+      </div>
+</section>
+
+<section className="bg-white dark:bg-gray-900 mt-20 mb-0">
   <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
       <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
           <div className="flex flex-col items-center justify-center">
@@ -65,27 +87,6 @@ export const LandingContent = () => {
           </div>
       </dl>
   </div>
-</section>
-
-<section className="mb-0">
-      <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-40">Progreso Startup</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {testimonials.map((item) => (
-          <Card key={item.description} className="bg-gray-100 border-none">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-x-2">
-                <div>
-                  <p className="text-lg">{item.name}</p>
-                  <p className="text-zinc-400 text-sm">{item.title}</p>
-                </div>
-              </CardTitle>
-              <CardContent className="pt-4 px-0">
-                {item.description}
-              </CardContent>
-            </CardHeader>
-          </Card>
-        ))}
-      </div>
 </section>
 
   </div>
