@@ -57,10 +57,10 @@ const MusicPage = () => {
     <div>
       <Heading
         title="Generador"
-        description="By Wolfgang Studios"
+        description=" "
         icon={Music}
-        iconColor="text-grey-500"
-        bgColor="bg-gray-600/10"
+        iconColor=" "
+        bgColor=" "
       />
       <div className="px-4 lg:px-8">
         <Form {...form}>
