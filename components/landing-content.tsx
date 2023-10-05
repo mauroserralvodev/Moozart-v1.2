@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 
+
 const testimonials = [
   {
     name: "#1 Software",
@@ -38,7 +39,7 @@ export const LandingContent = () => {
         <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre Nosotros</h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
-            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-lg">
                 Saber más
             </a> 
         </div>
@@ -53,7 +54,7 @@ export const LandingContent = () => {
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-20">Progreso Startup</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-white border border-gray-200 shadow-md">
+          <Card key={item.description} className="bg-white border border-gray-200 shadow-md hover:translate-y-1 hover:shadow-lg transition">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
