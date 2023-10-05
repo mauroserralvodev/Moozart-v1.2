@@ -10,21 +10,21 @@ const tools =[
     label: "Generador",
     icon: Music,
     color: "text-gray-900",
-    bgColor: "bg-gray-100",
+    bgColor: "bg-white",
     href: "/music"
   },
   {
     label: "Marketplace",
     icon: Store,
     color: "text-gray-900",
-    bgColor: "bg-gray-100",
+    bgColor: "bg-white",
     href: "/marketplace"
   },
   {
     label: "Crypto",
     icon: Wallet,
     color: "text-gray-900",
-    bgColor: "bg-gray-100",
+    bgColor: "bg-white",
     href: "/crypto"
   }
 ]
@@ -43,8 +43,8 @@ const DashboardPage = () => {
           <Card 
           onClick={() => router.push(tool.href)}
           key={tool.href}
-          className="p-4 border-none flex items-center font-semiblod
-          justify-between shadow-lg bg-gray-100 hover:bg-white transition cursor-pointer m-2"
+          className="p-4 border border-gray-200 flex items-center font-semiblod
+          justify-between shadow-md hover:shadow-lg bg-white hover:bg-white transition cursor-pointer m-2"
           > 
           <div className="flex items-center gap-x-4">
             <div className={cn("p-2 w-fit rounded-md", tool.bgColor)}>

@@ -66,14 +66,14 @@ const MusicPage = () => {
         <Form {...form}>
           <form 
             onSubmit={form.handleSubmit(onSubmit)} 
-            className="bg-gray-100 rounded-lg shadow-lg w-full p-4 px-3 md:px-6  grid grid-cols-12 gap-2">
+            className="bg-white border border-gray-200 shadow-md hover:shadow-lg rounded-lg w-full p-4 px-3 md:px-6  grid grid-cols-12 gap-2 transition">
             <FormField
               name="prompt"
               render={({ field }) => (
                 <FormItem className="col-span-12 lg:col-span-10">
                   <FormControl className="m-0 p-0">
                     <Input
-                      className="border-none outline-none focus-visible:ring-0 focus-visible:ring-transparent bg-gray-100"
+                      className="border-none outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading} 
                       placeholder="Describe la música que quieres escuchar" 
                       {...field}
