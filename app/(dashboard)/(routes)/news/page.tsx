@@ -3,7 +3,7 @@
 import { Empty } from "@/components/ui/empty";
 import Image from "next/image";
 
-const NewsPage = () => {
+const Error = () => {
   return ( 
 <section>
     <main className="pt-8 pb-0 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
@@ -55,4 +55,4 @@ const NewsPage = () => {
    );
 }
  
-export default NewsPage;
+export default Error;
