@@ -1,6 +1,7 @@
 "use client";
 
 import { Empty } from "@/components/ui/empty";
+import Image from "next/image";
 
 const NewsPage = () => {
   return ( 
@@ -11,7 +12,7 @@ const NewsPage = () => {
           <header className="mb-4 lg:mb-6 not-format">
               <address className="flex items-center mb-6 not-italic">
                   <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                      <img className="mr-4 w-16 h-16 rounded-full" src="onelogo.png" alt="Mauro Serralvo"/>
+                      <Image className="mr-4 w-16 h-16 rounded-full" src="onelogo.png" alt="Mauro Serralvo"/>
                       <div>
                           <p rel="author" className="text-xl font-bold text-gray-900 dark:text-white">Mauro Serralvo</p>
                           <p className="text-base text-gray-500 dark:text-gray-400">Co-fundador</p>
@@ -24,7 +25,7 @@ const NewsPage = () => {
           <p className="mb-8">Es importante destacar que la participación en el Marketplace está reservada exclusivamente para aquellos usuarios que han optado por una suscripción pro, además, los suscriptores pro disfrutan de la ventaja de descargar 
             sin marca de agua todos sus proyectos con la mayor calidad de audio jamás vista.</p>
 
-          <figure><img className="shadow-lg border-black-10px rounded-lg " src="CapturaMarket.jpg" alt=""/>
+          <figure><Image className="shadow-lg border-black-10px rounded-lg " src="CapturaMarket.jpg" alt=""/>
               <figcaption className="text-xs text-center mt-4">&copy; 2023 Articulo -Moozart AI</figcaption>
           </figure>
     </article>
