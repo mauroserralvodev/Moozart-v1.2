@@ -16,7 +16,7 @@ export const LandingFooter = () => {
                       <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Actualizaciones</h2>
                       <ul className="text-gray-600 dark:text-gray-400">
                           <li className="mb-4">
-                              <a href="https://moozart.net/news" className="hover:underline">Noticias</a>
+                              <a href="/news" className="hover:underline">Noticias</a>
                           </li>
                           <li>
                               <a href="https://tailwindcss.com/" className="hover:underline">Versiones</a>
