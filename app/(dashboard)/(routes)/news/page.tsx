@@ -26,7 +26,7 @@ const NewsPage = () => {
             sin marca de agua todos sus proyectos con la mayor calidad de audio jamás vista.</p>
 
           <figure><Image className="shadow-lg border-black-10px rounded-lg " src="CapturaMarket.jpg" alt=""/>
-              <figcaption className="text-xs text-center mt-4">&copy; 2023 Articulo -Moozart AI</figcaption>
+              <figcaption className="text-xs text-center mt-4"> 2023 Articulo -Moozart AI</figcaption>
           </figure>
     </article>
   </div>
