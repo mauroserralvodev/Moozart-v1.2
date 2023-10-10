@@ -44,7 +44,7 @@ export const LandingContent = () => {
             </a> 
         </div>
         <div className="pl:20 pr:0 hidden lg:mt-0 lg:col-span-5 lg:flex pl-40">
-            <img src="/persona.png" alt="mockup"/>
+            <Image src="/persona.png" alt="mockup"/>
         </div>                
     </div>
 </section>

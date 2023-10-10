@@ -1,6 +1,7 @@
 "use client";
 
 import { Empty } from "@/components/ui/empty";
+import Image from "next/image";
 
 const Error = () => {
   return ( 
@@ -11,7 +12,7 @@ const Error = () => {
             <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
         </a>
         <div className="h-full p-2 pb-2 flex flex-col items-center justify-center relative mb-4">
-          <img className="" src="/amadeuslogo.png" />
+          <img src="/amadeuslogo.png"/>
         </div>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Los Amadeu coins son la criptomoneda de la plataforma, tienen multiples usos como la compra venta en Marketplace. Pronto en Binance.</p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
@@ -27,8 +28,8 @@ const Error = () => {
     </div>
   <section className="bg-white dark:bg-gray-900">
     <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-        <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"/>
+        <Image className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+        <Image className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"/>
         <div className="mt-4 md:mt-0">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">¿Porque usamos Binance?</h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">En Moozart, elegimos utilizar la Binance Smart Chain (BSC) debido a su alta velocidad, bajo costo y compatibilidad con la red Ethereum. La BSC utiliza un mecanismo de consenso de prueba de participaci&oacute;n delegada (DPoS), lo que permite una mayor velocidad y eficiencia en el procesamiento de transacciones. Adem&aacute;s, la BSC tiene una cadena secundaria llamada Binance Chain, que permite una transacci&oacute;n m&aacute;s r&aacute;pida y econ&oacute;mica.</p>

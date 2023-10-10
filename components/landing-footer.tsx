@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export const LandingFooter = () => {
     return (
       <footer className="p-8 border border-gray-200 shadow-md rounded-lg m-10 mt-0 mb-20 sm:p-6 dark:bg-gray-800">
@@ -7,7 +9,7 @@ export const LandingFooter = () => {
           <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">
                   <a href="https://moozart.es" className="flex items-center">
-                      <img src="/logo.png" className="mr-3 h-16" alt="Moozart Logo" />
+                      <Image src="/logo.png" className="mr-3 h-16" alt="Moozart Logo" />
                       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
                   </a>
               </div>
