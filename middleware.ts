@@ -8,16 +8,9 @@ import type { NextRequest } from 'next/server'
 
 export default authMiddleware({
       publicRoutes: ["/sign-up"],
+      ignoredRoutes: ["/((?!api|trpc))(_next.*|.+\.[\w]+$)", "/sign-up"]
 });
  
 export const config = {
       matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 };
- 
-export function middleware(request: NextRequest) {
- 
-  request.nextUrl.searchParams.set('from', request.nextUrl.pathname)
-  request.nextUrl.pathname = '/login'
- 
-  return NextResponse.redirect(request.nextUrl)
-}
