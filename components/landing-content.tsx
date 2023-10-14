@@ -44,11 +44,10 @@ export const LandingContent = () => {
             </a> 
         </div>
         <div className="pl:20 pr:0 hidden lg:mt-0 lg:col-span-5 lg:flex pl-40">
-            <Image src="/persona.png" alt="mockup"/>
-        </div>                
+            <img className="mr-4" src="/persona.png" alt="mockup"></img>
+        </div>
     </div>
 </section>
-
 
 <section className="mb-0">
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-20">Progreso Startup</h2>
@@ -89,7 +88,6 @@ export const LandingContent = () => {
       </dl>
   </div>
 </section>
-
-  </div>
+</div>
   )
 }

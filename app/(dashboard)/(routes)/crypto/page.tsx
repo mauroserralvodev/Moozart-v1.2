@@ -28,8 +28,8 @@ const Error = () => {
     </div>
   <section className="bg-white dark:bg-gray-900">
     <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <Image className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-        <Image className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"/>
+        <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"></img>
+        <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"></img>
         <div className="mt-4 md:mt-0">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">¿Porque usamos Binance?</h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">En Moozart, elegimos utilizar la Binance Smart Chain (BSC) debido a su alta velocidad, bajo costo y compatibilidad con la red Ethereum. La BSC utiliza un mecanismo de consenso de prueba de participaci&oacute;n delegada (DPoS), lo que permite una mayor velocidad y eficiencia en el procesamiento de transacciones. Adem&aacute;s, la BSC tiene una cadena secundaria llamada Binance Chain, que permite una transacci&oacute;n m&aacute;s r&aacute;pida y econ&oacute;mica.</p>
@@ -65,7 +65,7 @@ const Error = () => {
 </section>
 <footer className="bg-white rounded-lg sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
   <p className="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-    2023 <a href="https://moozart.net/" className="hover:underline" target="_blank">Moozart AI</a> - All rights reserved.
+  ©2023 <a href="https://moozart.net/" className="hover:underline" target="_blank">Moozart AI</a> - All rights reserved.
   </p>
   <div className="flex justify-center items-center space-x-1">
   <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2">

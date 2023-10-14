@@ -1,39 +1,113 @@
 "use client";
 
 import { Empty } from "@/components/ui/empty";
-import Image from "next/image";
 
 const Error = () => {
   return ( 
-<section>
-    <main className="pt-8 pb-0 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
-  <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
-      <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-          <header className="mb-4 lg:mb-6 not-format">
-              <address className="flex items-center mb-6 not-italic">
-                  <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                      <Image className="mr-4 w-16 h-16 rounded-full" src="onelogo.png" alt="Mauro Serralvo"/>
-                      <div>
-                          <p rel="author" className="text-xl font-bold text-gray-900 dark:text-white">Mauro Serralvo</p>
-                          <p className="text-base text-gray-500 dark:text-gray-400">Co-fundador</p>
-                      </div>
+<section className="bg-white dark:bg-gray-900">
+  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 mb-10">
+      <div className="mx-auto max-w-screen-sm text-center lg:mb-14 mb-8">
+         <h2 className="mb-3 mt-1 text-5xl lg:text-5xl font-extrabold text-gray-900 dark:text-white">Moozart News</h2>
+      </div> 
+      <div className="grid gap-8 lg:grid-cols-2">
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 hover:translate-y-0.5 transition">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+              <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                      Artículo
+                  </span>
+                  <span className="text-sm">8/10/2023</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/H8uf5TngNMV6pl">Marketplace en la plataforma</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Un nuevo Marketplace dentro de Moozart. Marketplace es un espacio esencial dentro de nuestra plataforma diseñado para que los usuarios puedan comprar y vender sus canciones.</p>
+              <div className="flex justify-between items-center">
+                  <div className="flex items-center space-x-4">
+                      <img className="w-7 h-7 rounded-full" src="/onelogo.png" alt="Mauro avatar" />
+                      <span className="font-medium dark:text-white">
+                      Mauro Serralvo
+                      </span>
                   </div>
-              </address>
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">Marketplace en la plataforma</h1>
-          </header>
-          <p className="mb-2 lead">Marketplace es un espacio esencial dentro de nuestra plataforma diseñado para que los usuarios puedan comprar y vender sus canciones a través de la criptomoneda de la plataforma “Amadeus Coin".</p>
-          <p className="mb-8">Es importante destacar que la participación en el Marketplace está reservada exclusivamente para aquellos usuarios que han optado por una suscripción pro, además, los suscriptores pro disfrutan de la ventaja de descargar 
-            sin marca de agua todos sus proyectos con la mayor calidad de audio jamás vista.</p>
+                  <a href="news/H8uf5TngNMV6pl" className="inline-flex items-center font-medium text-blue-700 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 hover:translate-y-0.5 transition">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                  <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                      Artículo
+                  </span>
+                  <span className="text-sm">17/9/2023</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/Jk97A68J4rf9">Nuevas Suscripciones</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Dentro de nuestra plataforma, ofrecemos a nuestros usuarios tres tipos de suscripciones distintas para adaptarnos a sus necesidades: la Suscripción Gratuita, la Suscripción Pro y la Suscripción  Custom.</p>
+              <div className="flex justify-between items-center">
+                  <div className="flex items-center space-x-4">
+                      <img className="w-7 h-7 rounded-full" src="/twologo.png" alt="Bonnie Green avatar" />
+                      <span className="font-medium dark:text-white">
+                      Pol Capdevila
+                      </span>
+                  </div>
+                  <a href="news/Jk97A68J4rf9" className="inline-flex items-center font-medium text-blue-700 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article>
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 hover:translate-y-0.5 transition">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                  <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                      Artículo
+                  </span>
+                  <span className="text-sm">14/9/2023</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Nueva sección en Instagram</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">En nuestro perfil de Instagram, encontrarás una nueva sección, donde compartiremos información y novedades relacionadas con el apasionante mundo de la inteligencia artificial y sus desarrollos más recientes.</p>
+              <div className="flex justify-between items-center">
+                  <div className="flex items-center space-x-4">
+                      <img className="w-7 h-7 rounded-full" src="/twologo.png" alt="Bonnie Green avatar" />
+                      <span className="font-medium dark:text-white">
+                      Pol Capdevila
+                      </span>
+                  </div>
+                  <a href="#" className="inline-flex items-center font-medium text-blue-700 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 hover:translate-y-0.5 transition">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                  <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                      Artículo
+                  </span>
+                  <span className="text-sm">12/9/2023</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/9LKa7Nb48FAp">Criptomoneda de Moozart</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Los Amadeu coins son la criptomoneda de la plataforma, su nombre proviene del compositor Wolfgang Amadeus Mozart, tiene el fin de ser usada para el intercambio en Marketplace.</p>
+              <div className="flex justify-between items-center">
+                  <div className="flex items-center space-x-4">
+                  <img className="w-7 h-7 rounded-full" src="/onelogo.png" alt="Mauro avatar" />
+                      <span className="font-medium dark:text-white">
+                          Mauro Serralvo
+                      </span>
+                  </div>
+                  <a href="news/9LKa7Nb48FAp" className="inline-flex items-center font-medium text-blue-700 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article>                   
+      </div>  
+  </div> 
 
-          <figure><Image className="shadow-lg border-black-10px rounded-lg " src="CapturaMarket.jpg" alt=""/>
-              <figcaption className="text-xs text-center mt-4"> 2023 Articulo -Moozart AI</figcaption>
-          </figure>
-    </article>
-  </div>
-  </main>
-  <footer className="bg-white rounded-lg sm:flex sm:items-center sm:justify-between sm:p-6 xl:p-8 dark:bg-gray-800 antialiased mt-10">
+  <footer className="bg-white rounded-lg sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased mt-">
   <p className="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-    2023 <a href="https://moozart.net/" className="hover:underline" target="_blank">Moozart AI</a> - All rights reserved.
+  ©2023 <a href="https://moozart.net/" className="hover:underline" target="_blank">Moozart AI</a> - All rights reserved.
   </p>
   <div className="flex justify-center items-center space-x-1">
   <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2">
@@ -50,9 +124,10 @@ const Error = () => {
                   </a> 
 </div>
 </footer>
+
 </section>
 
-   );
+);
 }
  
 export default Error;
