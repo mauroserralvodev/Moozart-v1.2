@@ -7,8 +7,8 @@ import type { NextRequest } from 'next/server'
 // See https://clerk.com/docs/references/nextjs/auth-middleware for more information about configuring your middleware
 
 export default authMiddleware({
-      publicRoutes: ["/"],
-      ignoredRoutes: ["/((?!api|trpc))(_next.*|.+\.[\w]+$)", "/sign-up"]
+      publicRoutes: ["/sign-up"],
+      ignoredRoutes: ["/((?!api|trpc))(_next.*|.+\.[\w]+$)"]
 });
  
 export const config = {
