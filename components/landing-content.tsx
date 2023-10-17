@@ -34,12 +34,12 @@ const testimonials = [
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20 mt-40">
-      <section className="bg-white dark:bg-gray-900">
+      <section className=" dark:bg-gray-900">
     <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre Nosotros</h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
-            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-lg">
+            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="bg-white inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-lg">
                 Saber más
             </a> 
         </div>
@@ -70,7 +70,7 @@ export const LandingContent = () => {
       </div>
 </section>
 
-<section className="bg-white dark:bg-gray-900 mt-20 mb-0">
+<section className="dark:bg-gray-900 mt-20 mb-0">
   <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
       <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
           <div className="flex flex-col items-center justify-center">

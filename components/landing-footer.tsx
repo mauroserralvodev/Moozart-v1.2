@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const LandingFooter = () => {
     return (
-      <footer className="p-8 border border-gray-200 shadow-md rounded-lg m-10 mt-0 mb-20 sm:p-6 dark:bg-gray-800">
+      <footer className="p-8 border bg-white border-gray-200 shadow-md rounded-lg m-10 mt-0 mb-20 sm:p-6 dark:bg-gray-800">
       <div className="mx-auto max-w-screen-xl">
           <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">

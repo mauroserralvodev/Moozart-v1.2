@@ -5,14 +5,15 @@ import { LandingFooter } from "@/components/landing-footer";
 
 const LandingPage = () => {
   return ( 
-    <div className="h-full">
+    
+<section>
       <LandingNavbar />
       <LandingHero />
       <LandingContent />
-      <div className="pb-2">
+    <div className="pb-2">
       <LandingFooter />
-      </div>
     </div>
+</section>
    );
 }
 
