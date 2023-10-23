@@ -8,7 +8,7 @@ const Error = () => {
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 mb-10">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-14 mb-8">
         
-<h1 className="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">Moozart <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-sky-400">News</span></h1>
+<h1 className="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">Moozart<span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-sky-400">News</span></h1>
 <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">En nuestra sección de noticias, encontrarás las últimas novedades de nuestra plataforma.</p>
       </div> 
       <div className="grid gap-8 lg:grid-cols-2">
@@ -16,7 +16,7 @@ const Error = () => {
               <div className="flex justify-between items-center mb-5 text-gray-500">
               <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                       <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
-                      Artículo
+                      Marketplace
                   </span>
                   <span className="text-sm">8/10/2023</span>
               </div>
@@ -39,7 +39,7 @@ const Error = () => {
               <div className="flex justify-between items-center mb-5 text-gray-500">
                   <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                       <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
-                      Artículo
+                      Suscripciones
                   </span>
                   <span className="text-sm">17/9/2023</span>
               </div>
@@ -62,7 +62,7 @@ const Error = () => {
               <div className="flex justify-between items-center mb-5 text-gray-500">
                   <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                       <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
-                      Artículo
+                      Instagram
                   </span>
                   <span className="text-sm">14/9/2023</span>
               </div>
@@ -85,7 +85,7 @@ const Error = () => {
               <div className="flex justify-between items-center mb-5 text-gray-500">
                   <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                       <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
-                      Artículo
+                      Criptomoneda
                   </span>
                   <span className="text-sm">12/9/2023</span>
               </div>

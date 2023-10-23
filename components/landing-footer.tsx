@@ -9,7 +9,7 @@ export const LandingFooter = () => {
           <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">
                   <a href="https://moozart.es" className="flex items-center">
-                    <img className="mr-3 h-16" src="/logo.png" alt="Moozart Logo"/>
+                    <img className="mr-3 h-16" src="/logo.png" alt="Moozart Logo"></img>
                       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
                   </a>
               </div>

@@ -18,6 +18,7 @@ import { Empty } from "@/components/ui/empty";
 import { useProModal } from "@/hooks/use-pro-modal";
 
 import { formSchema } from "./constants";
+import { Noso } from "@/components/ui/noso";
 
 const MusicPage = () => {
   const proModal = useProModal();
@@ -93,7 +94,7 @@ const MusicPage = () => {
           </div>
         )}
         {!music && !isLoading && (
-          <Empty label="No has generado música todavía." />
+          <Noso label="No has generado música todavía." />
         )}
         {music && (
           <audio controls className="w-full mt-8">
