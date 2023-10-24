@@ -13,7 +13,7 @@ export const LandingHero = () => {
     
     <div className="mt-20 text-black font-bold py-36 text-center space-y-5">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-3 font-extrabold">
-        <h1>La Primera IA Músical</h1>
+        <h1>La Primera IA Musical</h1>
         <h1>Generativa Del Mundo</h1>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-600 text-2xl">
           <TypewriterComponent
