@@ -4,6 +4,7 @@ import Image from "next/image";
 
 export const LandingFooter = () => {
     return (
+    <section>
       <footer className="p-8 border bg-white border-gray-200 shadow-md rounded-lg m-10 mt-0 mb-20 sm:p-6 dark:bg-gray-800">
       <div className="mx-auto max-w-screen-xl">
           <div className="md:flex md:justify-between">
@@ -51,7 +52,7 @@ export const LandingFooter = () => {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-              <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://moozart.es" className="hover:underline">Moozart AI</a> - All Rights Reserved.
+              <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://moozart.net" className="hover:underline">Moozart AI</a> - All Rights Reserved.
               </span>
               <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                   <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -70,5 +71,6 @@ export const LandingFooter = () => {
           </div>
       </div>
   </footer>
+  </section>
     )
 }
