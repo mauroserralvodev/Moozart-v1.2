@@ -40,6 +40,5 @@ export const LandingHero = () => {
         No credit card required.
       </div>
     </div>
-
   );
 };
