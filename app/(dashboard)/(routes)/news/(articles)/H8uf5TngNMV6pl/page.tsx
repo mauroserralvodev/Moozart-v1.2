@@ -21,13 +21,13 @@ const NewsPage = () => {
               </address>
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">Marketplace en la plataforma</h1>
           </header>
-          <p className="mb-2 lead">Marketplace es un espacio esencial dentro de nuestra plataforma diseñado para que los usuarios puedan comprar y vender sus canciones a través de la criptomoneda de la plataforma “Amadeus Coin".</p>
+          <p className="mb-2 lead">Marketplace es un espacio esencial dentro de nuestra plataforma diseñado para que los usuarios puedan comprar y vender sus canciones a través de la criptomoneda de la plataforma Amadeus Coin.</p>
           <p className="mb-8">Es importante destacar que la participación en el Marketplace está reservada exclusivamente para aquellos usuarios que han optado por una suscripción pro, además, los suscriptores pro disfrutan de la ventaja de descargar 
             sin marca de agua todos sus proyectos con la mayor calidad de audio jamás vista.</p>
 
           <figure>
           <img className="shadow-lg border-black-10px rounded-lg w-full h-full" src="/CapturaMarket.jpg" alt="Imagen News"></img>
-              <figcaption className="text-xs text-center mt-4"> ©2023 Articulo -Moozart AI</figcaption>
+              <figcaption className="text-xs text-center mt-4">©2023 Articulo -Moozart AI</figcaption>
           </figure>
     </article>
   </div>
