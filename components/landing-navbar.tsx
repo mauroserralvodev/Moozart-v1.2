@@ -14,6 +14,7 @@ export const LandingNavbar = () => {
   const { isSignedIn } = useAuth();
 
   return (
+    
     <nav className="p-4 flex items-center justify-between">
       <Link href="/" className="flex items-center">
         <div className="relative h-10 w-32 mr-10">
@@ -31,5 +32,6 @@ export const LandingNavbar = () => {
         </Link>
       </div>
     </nav>
+    
   )
 }
