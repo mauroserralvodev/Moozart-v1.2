@@ -7,11 +7,11 @@ const Error = () => {
     <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Time to <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500">Elevate your Sound</span></h2>
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Time to <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500">Elevate your sound</span></h2>
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Crea sin limites y lleva tu creatividad al máximo nivel, nosotros nos encargamos del resto.</p>
       </div>
       <div className="select-none space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-          <div className="shadow-lg flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-3xl font-extrabold">Free</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Mejor opcion para probar las funciones.</p>
               <div className="flex justify-center items-baseline my-8">
