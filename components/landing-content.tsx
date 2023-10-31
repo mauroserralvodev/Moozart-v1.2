@@ -35,7 +35,7 @@ export const LandingContent = () => {
   return (
 <div className="pb-20 mt-0">
 <hr className="stroke-gray-200 sm:mx-auto dark:border-gray-700" />
-<div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible lg:px-0">
+<div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible lg:px-0  pr-20">
   <div className="absolute inset-0 -z-10 overflow-hidden">
     <svg className="absolute left-[max(50%,25rem)] top-30 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
       <defs>
@@ -51,20 +51,20 @@ export const LandingContent = () => {
   </div>
 <section className=" dark:bg-gray-900">
     <div className="grid max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
+        <div className="mr-auto place-self-center lg:col-span-7 px-6">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre Nosotros</h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
             <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="bg-white inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-lg">
                 Saber más
             </a> 
         </div>
-        <div className="pl:20 pr:0 hidden lg:mt-0 lg:col-span-5 lg:flex pl-40">
-            <img className="mr-4" src="/persona.png" alt="mockup"></img>
+        <div className="mt-10 pr:0 hidden lg:mt-0 lg:col-span-5 lg:flex pl-30">
+            <img className="mr-4" src="/588shots_so.png" alt="mockup"></img>
         </div>
     </div>
 </section>
 </div>
-<section className="mb-0 px-6">
+<section className="mb-0 px-10">
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-20">Progreso Startup</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
