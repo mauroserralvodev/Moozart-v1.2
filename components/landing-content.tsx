@@ -33,7 +33,7 @@ const testimonials = [
 
 export const LandingContent = () => {
   return (
-<div className="px-10 pb-20 mt-0">
+<div className="pb-20 mt-0">
 <hr className="stroke-gray-200 sm:mx-auto dark:border-gray-700" />
 <div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible lg:px-0">
   <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -64,7 +64,7 @@ export const LandingContent = () => {
     </div>
 </section>
 </div>
-<section className="mb-0">
+<section className="mb-0 px-6">
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-20">Progreso Startup</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (

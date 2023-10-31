@@ -7,6 +7,7 @@ const LandingPage = () => {
   return ( 
     
 <section>
+<link rel="icon" href="imagenes/logo.png"/>
       <LandingNavbar />
       <LandingHero />
       <LandingContent />
