@@ -1,7 +1,5 @@
 "use client";
 
-import { Empty } from "@/components/ui/empty";
-
 const Error = () => {
   return ( 
     <section className="bg-white dark:bg-gray-900">
