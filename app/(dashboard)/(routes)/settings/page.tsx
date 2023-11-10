@@ -44,7 +44,7 @@ const Error = () => {
                       <span>Free support: <span className="font-semibold">8h/dia</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Subscripcion Actual</a>
+              <a href="settings/free" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Subscripcion Actual</a>
           </div>
 
           <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -121,7 +121,7 @@ const Error = () => {
                       <span>Custom support: <span className="font-semibold">24/7</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Comprar ahora</a>
+              <a href="settings/custom" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Comprar ahora</a>
           </div>
       </div>
   </div>
