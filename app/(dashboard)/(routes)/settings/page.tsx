@@ -9,7 +9,7 @@ const Error = () => {
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Crea sin limites y lleva tu creatividad al máximo nivel, nosotros nos encargamos del resto.</p>
       </div>
       <div className="select-none space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-3xl font-extrabold">Free</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Mejor opcion para probar las funciones.</p>
               <div className="flex justify-center items-baseline my-8">
@@ -47,7 +47,7 @@ const Error = () => {
               <a href="settings/free" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Subscripcion Actual</a>
           </div>
 
-          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-3xl font-extrabold">PRO</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">La alternativa para productores, dj o creadores de contenido online.</p>
               <div className="flex justify-center items-baseline my-8">
@@ -86,7 +86,7 @@ const Error = () => {
               <a href="settings/pro" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Comprar ahora</a>
           </div>
           
-          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-3xl font-extrabold">Custom</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Mejor opcion para uso comercial o publicitario.</p>
               <div className="flex justify-center items-baseline my-8">
