@@ -27,7 +27,7 @@ const NewsPage = () => {
 
           <figure>
           <img className="shadow-lg border-black-10px rounded-lg w-full h-full" src="/CapturaMarket.jpg" alt="Imagen News"></img>
-              <figcaption className="text-xs text-center mt-4">©2023 Articulo -Moozart AI</figcaption>
+              <figcaption className="text-xs text-center mt-4">©2023 Articulo - Moozart AI</figcaption>
           </figure>
     </article>
   </div>
