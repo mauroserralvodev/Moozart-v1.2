@@ -3,6 +3,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
 
 const testimonials = [
   {
@@ -33,9 +46,11 @@ const testimonials = [
 
 export const LandingContent = () => {
   return (
+
 <div className="pb-20 mt-0">
-<hr className="stroke-gray-200 sm:mx-auto dark:border-gray-700" />
-<div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible lg:px-0  pr-20">
+<hr className="stroke-gray-200 sm:mx-auto"/>
+<div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible lg:px-0 pr-20">
+
   <div className="absolute inset-0 -z-10 overflow-hidden">
     <svg className="absolute left-[max(50%,25rem)] top-30 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
       <defs>
@@ -49,12 +64,16 @@ export const LandingContent = () => {
       <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
     </svg>
   </div>
-<section className=" dark:bg-gray-900">
-    <div className="grid max-w-screen-xl px-12 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Sobre Nosotros</h1>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
-            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="bg-white inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-lg">
+
+    <div className="grid px-10 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="place-self-center lg:col-span-7">
+        <section className={space.className}>
+            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">Sobre Nosotros</h1>
+        </section>
+        <section className={space2.className}>
+            <p className="w-full mb-6 font-light text-black lg:mb-6 md:text-lg lg:text-xl ">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
+        </section>
+            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="bg-black inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-black rounded-lg transition hover:bg-white hover:text-black focus:ring-4 focus:ring-gray-100 shadow-lg">
                 Saber más
             </a> 
         </div>
@@ -62,46 +81,66 @@ export const LandingContent = () => {
             <img className="mr-4" src="/588shots_so.png" alt="mockup"></img>
         </div>
     </div>
-</section>
+
 </div>
 <section className="mb-0 px-10">
+<section className={space.className}>
       <h2 className="text-center text-4xl text-black font-extrabold mb-10 mt-20">Progreso Startup</h2>
+</section>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
           <Card key={item.description} className="bg-white border border-gray-200 shadow-md hover:translate-y-1 hover:shadow-lg transition">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
+                <section className={space.className}>
                   <p className="text-lg">{item.name}</p>
+                </section>
                   <p className="text-zinc-400 text-sm">{item.title}</p>
                 </div>
               </CardTitle>
+              <section className={space2.className}>
               <CardContent className="pt-4 px-0">
                 {item.description}
               </CardContent>
+              </section>
             </CardHeader>
           </Card>
         ))}
       </div>
 </section>
-<section className="dark:bg-gray-900 mt-20 mb-0">
+
+<section className=" mt-20 mb-0">
   <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-      <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
+      <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 ">
           <div className="flex flex-col items-center justify-center">
+          <section className={space.className}>
               <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+12k</dt>
-              <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Usuarios</dd>
+          </section>
+          <section className={space2.className}>
+              <dd className="font-light text-black mb-10">Usuarios</dd>
+          </section>
           </div>
           <div className="flex flex-col items-center justify-center">
+          <section className={space.className}>
               <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+450k</dt>
-              <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Canciones generadas</dd>
+          </section>
+          <section className={space2.className}>
+              <dd className="font-light text-black  mb-10">Canciones generadas</dd>
+          </section>
           </div>
           <div className="flex flex-col items-center justify-center">
+          <section className={space.className}>
               <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+70k</dt>
-              <dd className="font-light text-gray-500 dark:text-gray-400 mb-10">Transaciones Crypto</dd>
+          </section>
+          <section className={space2.className}>
+              <dd className="font-light text-black mb-10">Transaciones Crypto</dd>
+            </section>
           </div>
       </dl>
   </div>
 </section>
+
 </div>
   )
 }

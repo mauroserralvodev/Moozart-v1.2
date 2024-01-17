@@ -6,6 +6,14 @@ import { useAuth } from "@clerk/nextjs";
 
 import { Button } from "@/components/ui/button";
 
+import { Bricolage_Grotesque } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
 export const LandingHero = () => {
   const { isSignedIn } = useAuth();
 
@@ -27,9 +35,11 @@ export const LandingHero = () => {
    
     <div className="mt-0 text-black font-bold py-36 text-center space-y-5">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-3 font-extrabold">
-        <h1>La Primera IA Musical</h1>
+      <section className={space.className}>
+        <h1>La Primera <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-600">IA Musical</span></h1>
         <h1>Generativa Del Mundo</h1>
-        <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-600 text-2xl">
+      </section>
+        <div className="text-black text-2xl">
           <TypewriterComponent
             options={{
               strings: [
@@ -45,7 +55,7 @@ export const LandingHero = () => {
       </div>
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
-          <Button className="text-white md:text-lg p-4 md:p-6 rounded-full font-semibold bg-gradient-to-r from-blue-600 to-blue-800 hover:bg-blue-600">
+          <Button className="hover:text-black border-2 hover:bg-white border-black md:text-lg p-4 md:p-6 rounded-full font-semibold transition bg-black text-white">
             Empieza a crear gratis
           </Button>
         </Link>
