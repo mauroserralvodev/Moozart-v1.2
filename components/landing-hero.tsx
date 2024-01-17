@@ -39,7 +39,7 @@ export const LandingHero = () => {
         <h1>La Primera <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-600">IA Musical</span></h1>
         <h1>Generativa Del Mundo</h1>
       </section>
-        <div className="text-black text-2xl">
+        <div className="text-black text-xl">
           <TypewriterComponent
             options={{
               strings: [
