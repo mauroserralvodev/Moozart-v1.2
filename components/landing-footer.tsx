@@ -39,7 +39,7 @@ export const LandingFooter = () => {
                               <a href="/news" className="hover:underline">Noticias</a>
                           </li>
                           <li>
-                              <a href="https://tailwindcss.com/" className="hover:underline">Versiones</a>
+                              <a href="https://tailwindcss.com/" className="hover:underline">Brand ID</a>
                           </li>
                       </ul>
                       </section>
@@ -67,10 +67,10 @@ export const LandingFooter = () => {
                   <section className={space2.className}>
                       <ul className="text-gray-600 ">
                           <li className="mb-4">
-                              <a href="#" className="hover:underline">Politica de Privacidad</a>
+                              <a href="/politica-de-privacidad" className="hover:underline">Politica de Privacidad</a>
                           </li>
                           <li>
-                              <a href="#" className="hover:underline">Terminos y Condiciones</a>
+                              <a href="/politica-de-privacidad" className="hover:underline">Terminos y Condiciones</a>
                           </li>
                       </ul>
                       </section>
