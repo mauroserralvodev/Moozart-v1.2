@@ -5,6 +5,20 @@ import { cn } from "@/lib/utils";
 import { ArrowRight, Music, Store, Wallet } from "lucide-react";
 import { useRouter } from "next/navigation";
 
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
+
 const tools =[
   {
     label: "Generador",
@@ -35,9 +49,10 @@ const DashboardPage = () => {
     <div>
       <div className="mb-8 space-y-4">
             <div className="text-3xl md:text-5xl font-extrabold text-center mt-10">
-               Descubre Nuestra Plataforma <h2 className="text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500 mb-10">Elevate Your Sound</h2>
+            <section className={space.className}> Descubre Nuestra Plataforma <h2 className="text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500 mb-10">Elevate Your Sound</h2></section>
             </div>
         </div>
+        <section className={space.className}>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">
         {tools.map((tool) => (
           <Card 
@@ -58,6 +73,7 @@ const DashboardPage = () => {
           </Card>
         ))}
       </div>
+      </section>
     </div>
   )
 }
