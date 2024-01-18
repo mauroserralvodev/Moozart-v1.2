@@ -1,14 +1,30 @@
 "use client";
 
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
+
 const PageCustom = () => {
   return ( 
-    <section>
+<section className={space2.className}>
 <div className="bg-white">
     <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
       <div className="max-w-3xl text-center mx-auto">
+      <section className={space.className}>
         <h1 className="block font-bold text-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
           Pasate a <mark className="px-2 text-white bg-blue-600 rounded-lg dark:bg-blue-500">Custom</mark>
         </h1>
+      </section>
       </div>
       <div className="max-w-3xl text-center mx-auto">
         <p className="text-lg text-gray-400">Custom es la mejor manera de llevar tu experiencia musical a otro nivel.</p>
@@ -19,11 +35,11 @@ const PageCustom = () => {
 <section className="items-center border border-gray-200 bg-gray-100 rounded-lg shadow-lg lg:mx-40 p-10">
 <main id="content" role="main" className="relative max-w-3xl px-4 sm:px-6 lg:px-8 flex flex-col justify-center sm:items-center mx-auto w-full h-full">
   <div className="text-center py-8 px-4 sm:px-6 lg:px-8">
-    
+  <section className={space.className}>
     <h1 className="text-2xl font-extrabold text-black sm:text-4xl">
       Get notified when we launch
     </h1>
-
+</section>
     <form>
       <div className="mt-8 space-y-4">
         <div>
@@ -119,7 +135,9 @@ const PageCustom = () => {
 </section>
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+  <section className={space.className}>
       <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Preguntas Frecuentes</h2>
+      </section>
       <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
           <div>
               <div className="mb-10">
@@ -186,7 +204,7 @@ const PageCustom = () => {
 </section>
 <footer className="bg-white rounded-lg sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
   <p className="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-  ©2023 <a href="https://moozart.net/" className="hover:underline" target="_blank">Moozart AI</a> - All rights reserved.
+  ©2024 <a href="https://moozart.net/" className="hover:underline" target="_blank">Moozart AI</a> - All rights reserved.
   </p>
   <div className="flex justify-center items-center space-x-1">
   <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2">

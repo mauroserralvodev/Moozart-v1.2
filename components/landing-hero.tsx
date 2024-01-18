@@ -55,7 +55,7 @@ export const LandingHero = () => {
       </div>
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
-          <Button className="hover:text-black border-2 hover:bg-white border-black md:text-lg p-4 md:p-6 rounded-full font-semibold transition bg-black text-white">
+          <Button className="transition bg-black text-white hover:text-black border-2 hover:bg-white border-black md:text-lg p-4 md:p-6 rounded-full font-semibold ">
             Empieza a crear gratis
           </Button>
         </Link>

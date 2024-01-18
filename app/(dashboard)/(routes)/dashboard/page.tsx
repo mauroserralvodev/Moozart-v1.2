@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { ArrowRight, Music, Store, Wallet } from "lucide-react";
+import { ArrowRight, Music, Store, Wallet, Newspaper } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 import { Bricolage_Grotesque, Manrope } from 'next/font/google'
@@ -23,23 +23,30 @@ const tools =[
   {
     label: "Generador",
     icon: Music,
-    color: "text-gray-900",
+    color: "text-black",
     bgColor: "bg-white",
     href: "/music"
   },
   {
     label: "Marketplace",
     icon: Store,
-    color: "text-gray-900",
+    color: "text-black",
     bgColor: "bg-white",
     href: "/marketplace"
   },
   {
     label: "Crypto",
     icon: Wallet,
-    color: "text-gray-900",
+    color: "text-black",
     bgColor: "bg-white",
     href: "/crypto"
+  },
+  {
+    label: "News",
+    icon: Newspaper,
+    color: "text-black",
+    bgColor: "bg-white",
+    href: "/news"
   }
 ]
 
@@ -48,8 +55,8 @@ const DashboardPage = () => {
   return (
     <div>
       <div className="mb-8 space-y-4">
-            <div className="text-3xl md:text-5xl font-extrabold text-center mt-10">
-            <section className={space.className}> Descubre Nuestra Plataforma <h2 className="text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500 mb-10">Elevate Your Sound</h2></section>
+            <div className="text-3xl md:text-5xl font-extrabold text-center mb-10 mt-10">
+            <section className={space.className}> Descubre Nuestra Plataforma</section>
             </div>
         </div>
         <section className={space.className}>

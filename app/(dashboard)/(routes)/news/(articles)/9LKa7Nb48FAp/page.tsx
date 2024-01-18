@@ -2,10 +2,24 @@
 
 import { Empty } from "@/components/ui/empty";
 import Image from "next/image";
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
+
 
 const NewsPage = () => {
   return ( 
-<section>
+<section className={space2.className}>
     <main className="pt-8 pb-0 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
       <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -19,7 +33,9 @@ const NewsPage = () => {
                       </div>
                   </div>
               </address>
+              <section className={space.className}>
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">Criptomoneda de Moozart</h1>
+              </section>
           </header>
           <p className="mb-2 lead">Los Amadeu coins son la criptomoneda, su nombre proviene del compositor austriaco Wolfgang Amadeus Mozart , es una criptomoneda creada por moozart con el fin de ser usada para el intercambio en marketplace. Solo se podrá comprar y vender en Marketplace usando la criptomoneda.</p>
           <p className="mb-8">Es una stablecoin, con un volumen total de acciones de 145.000 A, el precio de salida va a ser de 5€/por unidad. La capitalización de mercado durante la salida al mercado será de 725.000€.</p>

@@ -11,7 +11,7 @@ export const Noso = ({
   return (
     <div className="h-full p-20 flex flex-col items-center justify-center">
       <div className="relative h-72 w-72">
-        <Image src="/8703846_play_icon.png" fill alt="Empty" />
+        <Image src="/icolo.png" fill alt="Empty" />
       </div>
       <p className="text-muted-foreground text-sm text-center">
         {label}

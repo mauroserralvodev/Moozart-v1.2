@@ -2,10 +2,23 @@
 
 import { Empty } from "@/components/ui/empty";
 import Image from "next/image";
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
 
 const NewsPage = () => {
   return ( 
-<section>
+<section className={space2.className}>
     <main className="pt-8 pb-0 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
       <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -14,12 +27,14 @@ const NewsPage = () => {
                   <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                      <img className="mr-4 w-16 h-16 rounded-full" src="/twologo.png" alt="Pol Capdevila"></img>
                       <div>
-                          <p rel="author" className="text-xl font-bold text-gray-900 dark:text-white">Pol Capdevila</p>
+                          <p rel="author" className="text-xl font-extrabold text-gray-900">Pol Capdevila</p>
                           <p className="text-base text-gray-500 dark:text-gray-400">Co-fundador</p>
                       </div>
                   </div>
               </address>
+              <section className={space.className}>
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">Nuevas Suscripciones</h1>
+              </section>
           </header>
           <p className="mb-2 lead">Nuestra plataforma ofrece tres tipos de suscripciones para adaptarse a las necesidades de los usuarios: la Gratuita, la Pro y la Custom.</p>
           <p className="mb-2 lead">La Suscripción Gratuita permite acceder a características esenciales de la plataforma de creación musical de forma gratuita, pero con limitaciones</p>

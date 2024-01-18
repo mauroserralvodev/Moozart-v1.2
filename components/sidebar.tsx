@@ -7,6 +7,20 @@ import { cn } from "@/lib/utils";
 import { Globe2, LayoutDashboard, Music, Newspaper, Settings, Store, Wallet } from "lucide-react";
 import { usePathname } from "next/navigation";
 
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
+
 const routes = [
   {
     label: "Generador",
@@ -51,6 +65,7 @@ const Sidebar = () => {
                     <Image fill alt="logo" src="/logo.png"/>
                 </div>
             </Link>
+            <section className={space2.className}>
             <div className="space-y-1">
               {routes.map((route) => (
                 <Link href={route.href} 
@@ -63,6 +78,7 @@ const Sidebar = () => {
                 </Link>
               ))}
             </div>
+            </section>
         </div>
       </div>
     );

@@ -1,127 +1,157 @@
 "use client";
 
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
+
 const Error = () => {
   return ( 
+<section className={space2.className}>
     <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+      <section className={space.className}>
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Time to <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-500">Elevate your sound</span></h2>
-          <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Crea sin limites y lleva tu creatividad al máximo nivel, nosotros nos encargamos del resto.</p>
+      </section>
+          <p className="mb-5 font-light text-black text-md dark:text-gray-400">Crea sin limites y lleva tu creatividad al máximo nivel, nosotros nos encargamos del resto.</p>
       </div>
       <div className="select-none space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <section className={space.className}>
               <h3 className="mb-4 text-3xl font-extrabold">Free</h3>
+            </section>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Mejor opcion para probar las funciones.</p>
               <div className="flex justify-center items-baseline my-8">
+              <section className={space.className}>
                   <span className="mr-2 text-5xl font-extrabold">$0</span>
-                  <span className="text-gray-500 dark:text-gray-400">/mes</span>
+                  <span className="text-black">/mes</span>
+            </section>
               </div>
      
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
             
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Acceso a compras en Marketplace</span>
                   </li>
                   <li className="flex items-center space-x-3">
           
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Sin descargas</span>
                   </li>
                   <li className="flex items-center space-x-3">
           
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Limite diario: <span className="font-semibold">5 canciones</span></span>
                   </li>
                   <li className="flex items-center space-x-3">
         
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Version: <span className="font-semibold">Ultima version disponible</span></span>
                   </li>
                   <li className="flex items-center space-x-3">
         
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Free support: <span className="font-semibold">8h/dia</span></span>
                   </li>
               </ul>
-              <a href="settings/free" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Subscripcion Actual</a>
+              
+              <a href="settings/free" className="transition bg-black text-white hover:text-black border-2 hover:bg-white border-black font-bold rounded-lg text-sm px-5 py-2.5 text-center">Subscripcion Actual</a>
           </div>
 
-          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <div className="shadow-lg -translate-y-2 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <section className={space.className}>
               <h3 className="mb-4 text-3xl font-extrabold">PRO</h3>
+             </section>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">La alternativa para productores, dj o creadores de contenido online.</p>
               <div className="flex justify-center items-baseline my-8">
+              <section className={space.className}>
                   <span className="mr-2 text-5xl font-extrabold">$3.99</span>
-                  <span className="text-gray-500 dark:text-gray-400">/mes</span>
+                  <span className="text-black">/mes</span>
+                </section>
               </div>
 
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
                  
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Acceso a vender en Marketplace</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Descargas ilimitadas</span>
                   </li>
                   <li className="flex items-center space-x-3">
                      
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Limite diario: <span className="font-semibold">ilimitado</span></span>
                   </li>
                   <li className="flex items-center space-x-3">
                     
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Version: <span className="font-semibold">Acceso anticipado</span></span>
                   </li>
                   <li className="flex items-center space-x-3">
                   
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Premium support: <span className="font-semibold">24/7</span></span>
                   </li>
                   
               </ul>
-              <a href="settings/pro" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Comprar ahora</a>
+              <a href="settings/pro" className="transition bg-white text-black hover:text-white border-2 hover:bg-black border-black font-bold rounded-lg text-sm px-5 py-2.5 text-center">Comprar ahora</a>
           </div>
           
           <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200 dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+          <section className={space.className}>
               <h3 className="mb-4 text-3xl font-extrabold">Custom</h3>
+              </section>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Mejor opcion para uso comercial o publicitario.</p>
               <div className="flex justify-center items-baseline my-8">
+              <section className={space.className}>
                   <span className="mr-2 text-5xl font-extrabold">$24.98</span>
-                  <span className="text-gray-500 dark:text-gray-400">/mes</span>
+                  <span className="text-black">/mes</span>
+                </section>
               </div>
              
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
                    
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Todas las ventajas del plan pro</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Todos los derechos de Copyrhigt</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                      <span>Almacenamiento: <span className="font-semibold">200gb</span></span>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Alta velocidad de generacion</span>
                   </li>
                   <li className="flex items-center space-x-3">
                   
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Version: <span className="font-semibold">Personalizado</span></span>
                   </li>
                   <li className="flex items-center space-x-3">
                  
-                      <svg className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <svg className="flex-shrink-0 w-5 h-5 text-black dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                       <span>Custom support: <span className="font-semibold">24/7</span></span>
                   </li>
               </ul>
-              <a href="settings/custom" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Comprar ahora</a>
+              <a href="settings/custom" className="transition bg-black text-white hover:text-black border-2 hover:bg-white border-black 0 font-bold rounded-lg text-sm px-5 py-2.5 text-center">Comprar ahora</a>
           </div>
       </div>
   </div>
@@ -144,6 +174,7 @@ const Error = () => {
                   </a> 
 </div>
 </footer>
+</section>
 </section>
    );
 }

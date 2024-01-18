@@ -1,14 +1,29 @@
 "use client";
 
 import { Empty } from "@/components/ui/empty";
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
 
 const Error = () => {
   return ( 
+<section className={space2.className}> 
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 mb-10">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-14 mb-8">
-        
+<section className={space.className}>       
 <h1 className="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">Moozart<span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-sky-400">News</span></h1>
+</section>
 <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">En nuestra sección de noticias, encontrarás las últimas novedades de nuestra plataforma.</p>
       </div> 
       <div className="grid gap-8 lg:grid-cols-2">
@@ -20,7 +35,9 @@ const Error = () => {
                   </span>
                   <span className="text-sm">8/10/2023</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/H8uf5TngNMV6pl">Marketplace en la plataforma</a></h2>
+              <section className={space.className}> 
+               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/H8uf5TngNMV6pl">Marketplace en la plataforma</a></h2>
+              </section>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Un nuevo Marketplace dentro de Moozart. Marketplace es un espacio esencial dentro de nuestra plataforma diseñado para que los usuarios puedan comprar y vender sus canciones.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
@@ -43,7 +60,9 @@ const Error = () => {
                   </span>
                   <span className="text-sm">17/9/2023</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/Jk97A68J4rf9">Nuevas Suscripciones</a></h2>
+              <section className={space.className}> 
+               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/Jk97A68J4rf9">Nuevas Suscripciones</a></h2>
+              </section>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Dentro de nuestra plataforma, ofrecemos a nuestros usuarios tres tipos de suscripciones distintas para adaptarnos a sus necesidades: la Suscripción Gratuita, la Suscripción Pro y la Suscripción  Custom.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
@@ -66,7 +85,9 @@ const Error = () => {
                   </span>
                   <span className="text-sm">14/9/2023</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Nueva sección en Instagram</a></h2>
+              <section className={space.className}> 
+               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Nueva sección en Instagram</a></h2>
+              </section>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">En nuestro perfil de Instagram, encontrarás una nueva sección, donde compartiremos información y novedades relacionadas con el apasionante mundo de la inteligencia artificial y sus desarrollos más recientes.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
@@ -89,7 +110,9 @@ const Error = () => {
                   </span>
                   <span className="text-sm">12/9/2023</span>
               </div>
+              <section className={space.className}> 
               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="news/9LKa7Nb48FAp">Criptomoneda de Moozart</a></h2>
+              </section>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Los Amadeu coins son la criptomoneda de la plataforma, su nombre proviene del compositor Wolfgang Amadeus Mozart, tiene el fin de ser usada para el intercambio en Marketplace.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
@@ -128,7 +151,7 @@ const Error = () => {
 </footer>
 
 </section>
-
+</section>
 );
 }
  

@@ -20,6 +20,19 @@ import { useProModal } from "@/hooks/use-pro-modal";
 import { formSchema } from "./constants";
 import { Noso } from "@/components/ui/noso";
 
+import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+
+const space = Bricolage_Grotesque ({
+   style: 'normal',
+   subsets: ['latin'],
+   weight: '800'
+})
+
+const space2 = Manrope ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
 const MusicPage = () => {
   const proModal = useProModal();
   const router = useRouter();
@@ -56,6 +69,7 @@ const MusicPage = () => {
 
   return ( 
     <div>
+      <section className={space.className}>
       <Heading
         title="Generador"
         description=" "
@@ -63,7 +77,9 @@ const MusicPage = () => {
         iconColor=" "
         bgColor=" "
       />
+      </section>
       <div className="px-4 lg:px-8">
+      <section className={space2.className}>
         <Form {...form}>
           <form 
             onSubmit={form.handleSubmit(onSubmit)} 
@@ -101,6 +117,7 @@ const MusicPage = () => {
             <source src={music} />
           </audio>
         )}
+        </section>
       </div>
     </div>
    );
