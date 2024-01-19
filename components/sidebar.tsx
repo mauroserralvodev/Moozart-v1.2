@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Globe2, LayoutDashboard, Music, Newspaper, Settings, Store, Wallet } from "lucide-react";
+import { Globe2, LayoutDashboard, Music, Newspaper, Settings, Store, Wallet, CreditCard } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { Bricolage_Grotesque, Manrope } from 'next/font/google'
@@ -47,8 +47,8 @@ const routes = [
     color: "gradient-to-r from-blue-600 to-blue-800",
   },
   {
-    label: "Ajustes",
-    icon: Settings,
+    label: "Subscriptions",
+    icon: CreditCard,
     href: "/settings",
     color: "gradient-to-r from-blue-600 to-blue-800",
   }
@@ -80,7 +80,7 @@ const Sidebar = () => {
             </div>
             </section>
         </div>
-        <a href="/politica-de-privacidad" className="p-3 m-6 font-md inline-flex justify-center items-center border border-black rounded-lg">
+        <a href="/politica-de-privacidad" className="p-2 m-4 font-md inline-flex justify-center items-center border border-black rounded-lg">
           Politica de Privacidad
           <svg className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
