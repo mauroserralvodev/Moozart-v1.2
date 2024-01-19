@@ -104,10 +104,10 @@ const Marketplace = () => {
     <div className="transition translate-x-1 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg ">
     <img className='rounded-lg mb-5'  src='/acora.avif'/>
     <section className={space.className}>
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Todavía no hay canciones en Marketplace</h5>
+      <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">Todavía no hay canciones en Marketplace</h5>
       </section>
       <section className={space2.className}>
-      <p className="font-normal text-gray-700 ">Cuando haya canciones a la venta se mostrarán aquí.</p>
+      <p className="font-normal text-black">Cuando haya canciones a la venta se mostrarán aquí.</p>
       </section>
    </div>
 </div>

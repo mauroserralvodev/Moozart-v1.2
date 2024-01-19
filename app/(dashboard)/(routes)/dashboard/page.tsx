@@ -55,7 +55,7 @@ const DashboardPage = () => {
   return (
     <div>
       <div className="mb-8 space-y-4">
-            <div className="text-3xl md:text-5xl font-extrabold text-center mb-10 mt-10">
+            <div className="text-3xl sm:text-3xl md:text-5xl font-extrabold text-center mb-10 mt-10">
             <section className={space.className}> Descubre Nuestra Plataforma</section>
             </div>
         </div>
