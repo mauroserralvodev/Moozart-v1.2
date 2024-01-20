@@ -14,10 +14,23 @@ const space = Bricolage_Grotesque ({
    weight: '800'
 })
 
+const space2 = Bricolage_Grotesque ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '200'
+})
+
+const space3 = Bricolage_Grotesque ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '400'
+})
+
 export const LandingHero = () => {
   const { isSignedIn } = useAuth();
 
   return (
+    <section className={space3.className}>
 <div className="relative isolate overflow-hidden bg-white py-12 sm:py-32 lg:overflow-visible lg:px-0">
   <div className="absolute inset-0 -z-10 overflow-hidden">
     <svg className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_bottom,white,transparent)]" aria-hidden="true">
@@ -65,5 +78,6 @@ export const LandingHero = () => {
       </div>
     </div>
   </div>
+  </section>
   );
 };

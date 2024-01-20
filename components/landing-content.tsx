@@ -3,7 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 
-import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+import { Bricolage_Grotesque } from 'next/font/google'
 
 const space = Bricolage_Grotesque ({
    style: 'normal',
@@ -11,10 +11,10 @@ const space = Bricolage_Grotesque ({
    weight: '800'
 })
 
-const space2 = Manrope ({
+const space2 = Bricolage_Grotesque ({
   style: 'normal',
   subsets: ['latin'],
-  weight: '400'
+  weight: '200'
 })
 
 const testimonials = [

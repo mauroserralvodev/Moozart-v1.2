@@ -28,11 +28,18 @@ const space = Bricolage_Grotesque ({
    weight: '800'
 })
 
-const space2 = Manrope ({
+const space2 = Bricolage_Grotesque ({
+  style: 'normal',
+  subsets: ['latin'],
+  weight: '200'
+})
+
+const space3 = Bricolage_Grotesque ({
   style: 'normal',
   subsets: ['latin'],
   weight: '400'
 })
+
 const MusicPage = () => {
   const proModal = useProModal();
   const router = useRouter();
