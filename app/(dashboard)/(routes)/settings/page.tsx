@@ -32,7 +32,7 @@ const Error = () => {
           <p className="mb-5 font-light text-black text-md ">Crea sin limites y lleva tu creatividad al máximo nivel, nosotros nos encargamos del resto.</p>
       </div>
       <div className="select-none space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200  xl:p-8">
+          <div className="shadow-md translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200  xl:p-8">
           <section className={space.className}>
               <h3 className="mb-4 text-3xl font-extrabold">Free</h3>
             </section>
@@ -118,7 +118,7 @@ const Error = () => {
               <a href="settings/pro" className="transition bg-white text-black hover:text-white border-2 hover:bg-black border-black font-bold rounded-lg text-sm px-5 py-2.5 text-center">Comprar ahora</a>
           </div>
           
-          <div className="shadow-md hover:translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200  xl:p-8">
+          <div className="shadow-md translate-y-1 hover:shadow-lg transition flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-200  xl:p-8">
           <section className={space.className}>
               <h3 className="mb-4 text-3xl font-extrabold">Custom</h3>
               </section>
