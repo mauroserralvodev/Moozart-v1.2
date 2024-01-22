@@ -115,7 +115,7 @@ export const LandingContent = () => {
       <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 ">
           <div className="flex flex-col items-center justify-center">
           <section className={space.className}>
-              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+12k</dt>
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+600</dt>
           </section>
           <section className={space2.className}>
               <dd className="font-light text-black mb-10">Usuarios</dd>
@@ -123,7 +123,7 @@ export const LandingContent = () => {
           </div>
           <div className="flex flex-col items-center justify-center">
           <section className={space.className}>
-              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+450k</dt>
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+10k</dt>
           </section>
           <section className={space2.className}>
               <dd className="font-light text-black  mb-10">Canciones generadas</dd>
@@ -131,7 +131,7 @@ export const LandingContent = () => {
           </div>
           <div className="flex flex-col items-center justify-center">
           <section className={space.className}>
-              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+70k</dt>
+              <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+70</dt>
           </section>
           <section className={space2.className}>
               <dd className="font-light text-black mb-10">Transaciones Crypto</dd>
