@@ -86,21 +86,10 @@ const Sidebar = () => {
             </div>
             </section>
         </div>
-        
         <a href="/politica-de-privacidad" className="p-2 gap-x-2 mx-4 font-md inline-flex justify-center items-center border border-black rounded-lg">
           Politica de Privacidad
           <svg className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
-        
-        <div className="inline-flex rounded-md w-full items-center m-4">
-          <a href="/" aria-current="page" className="px-6 py-2 text-sm bg-white border border-black rounded-s-lg">
-          Volver al Inicio
-          </a>
-          <a href="/brand-id" className="px-6 py-2 text-sm text-gray-900 bg-white border border-black rounded-e-lg">
-          Brand ID
-          </a>
-        </div>
-
       </div>
     );
   }
