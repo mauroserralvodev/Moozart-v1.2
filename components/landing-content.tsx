@@ -50,7 +50,6 @@ export const LandingContent = () => {
 <div className="pb-20 mt-0">
 <hr className="stroke-gray-200 sm:mx-auto"/>
 <div className="relative isolate overflow-hidden bg-white py-24 sm:py-32 lg:overflow-visible lg:px-0 ">
-
   <div className="absolute inset-0 -z-10 overflow-hidden">
     <svg className="absolute left-[max(50%,25rem)] top-30 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
       <defs>
@@ -65,23 +64,22 @@ export const LandingContent = () => {
     </svg>
   </div>
 
-    <div className="grid px-10 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="place-self-center lg:col-span-7">
-        <section className={space.className}>
+  <div className="grid px-10 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div className="place-self-center lg:col-span-7">
+      <section className={space.className}>
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">Sobre Nosotros</h1>
-        </section>
-        <section className={space2.className}>
+      </section>
+      <section className={space2.className}>
             <p className="w-full mb-6 font-light text-black lg:mb-6 md:text-lg lg:text-xl ">Moozart es la primera IA musical generativa del mundo. Una plataforma donde los usuarios podrán crear su propia música en tan solo unos segundos y sin conocimiento previo. Dando unas simples instrucciones al software este podrá crear música personalizada y única, que los usuarios podrán usar libremente ya que no tiene copyright.</p>
-        </section>
-            <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="bg-black inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-black rounded-lg transition hover:bg-white hover:text-black focus:ring-4 focus:ring-gray-100 shadow-lg">
+      </section>
+      <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" className="bg-black inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-black rounded-lg transition hover:bg-white hover:text-black focus:ring-4 focus:ring-gray-100 shadow-lg">
                 Saber más
-            </a> 
-        </div>
+      </a>
+    </div>
         <div className="mt-10 pr:0 hidden lg:mt-0 lg:col-span-5 lg:flex pl-30">
             <img className="mr-4" src="/588shots_so.png" alt="mockup"></img>
         </div>
-    </div>
-
+  </div>
 </div>
 <section className="mb-0 px-10">
 <section className={space.className}>
@@ -109,35 +107,34 @@ export const LandingContent = () => {
         ))}
       </div>
 </section>
-
 <section className=" mt-20 mb-0">
   <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-      <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 ">
-          <div className="flex flex-col items-center justify-center">
+    <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 ">
+        <div className="flex flex-col items-center justify-center">
           <section className={space.className}>
               <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+1,2k</dt>
           </section>
           <section className={space2.className}>
               <dd className="font-light text-black mb-10">Usuarios</dd>
           </section>
-          </div>
-          <div className="flex flex-col items-center justify-center">
+        </div>
+        <div className="flex flex-col items-center justify-center">
           <section className={space.className}>
               <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+10k</dt>
           </section>
           <section className={space2.className}>
               <dd className="font-light text-black  mb-10">Canciones generadas</dd>
           </section>
-          </div>
-          <div className="flex flex-col items-center justify-center">
+        </div>
+        <div className="flex flex-col items-center justify-center">
           <section className={space.className}>
               <dt className="mb-2 text-5xl md:text-5xl font-extrabold">+700</dt>
           </section>
           <section className={space2.className}>
               <dd className="font-light text-black mb-10">Transaciones Crypto</dd>
             </section>
-          </div>
-      </dl>
+        </div>
+    </dl>
   </div>
 </section>
 
