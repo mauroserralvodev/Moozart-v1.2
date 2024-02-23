@@ -3,6 +3,7 @@
 import { Empty } from "@/components/ui/empty";
 import Image from "next/image";
 import { Bricolage_Grotesque, Manrope } from 'next/font/google'
+import { SparklesCore } from "@/components/ui/sparkles";
 
 const space = Bricolage_Grotesque ({
    style: 'normal',
@@ -78,7 +79,7 @@ const Error = () => {
                       <input className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 " placeholder="Enter your email" type="email" id="email"/>
                   </div>
                   <div>
-                      <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-black border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800">Suscribirse</button>
+                      <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-black border-black sm:rounded-none sm:rounded-r-lg hover:bg-primary-800">Suscribirse</button>
                   </div>
               </div>
               <div className="mx-auto max-w-screen-sm text-sm text-center text-gray-400 newsletter-form-footer "><a href="/politica-de-privacidad" className="font-medium text-primary-600 hover:underline">Al introducir tu correo electrónico aceptas automáticamente nuestra política de privacidad</a>.</div>

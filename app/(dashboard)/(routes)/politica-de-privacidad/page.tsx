@@ -41,7 +41,7 @@ const Polipage = () => {
                     
                 <h3 className='my-3'> a) Usted debe cumplir con la Pol&iacute;tica de Contenido de Generador.</h3>
                     
-                <h3 className='my-3'>    b) Moozart puede utilizar contratistas de terceros para revisar el Contenido con fines de seguridad y moderaci&oacute;n.</h3>
+                <h3 className='my-3'>b) Moozart puede utilizar contratistas de terceros para revisar el Contenido con fines de seguridad y moderaci&oacute;n.</h3>
                     
                 <h3 className='my-3'>    c) Si utiliza Generador a trav&eacute;s de moozart.net/generador ("Generador"), (i) los cr&eacute;ditos comprados en Moozart deben ser utilizados dentro de un a&ntilde;o de su compra o caducar&aacute;n, y (ii) Moozart puede usar Contenido en Generador para desarrollar y mejorar los Servicios. </h3>
                     

@@ -29,12 +29,25 @@ const NewsPage = () => {
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
       <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
           <header className="mb-4 lg:mb-6 not-format">
+          <ol className="flex items-center whitespace-nowrap mb-7" aria-label="Breadcrumb">
+  <li className="inline-flex items-center">
+    <a className="flex items-center text-sm text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:focus:text-blue-500" href="/news">
+      News
+    </a>
+    <svg className="flex-shrink-0 mx-2 overflow-visible size-4 text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+  </li>
+  <li className="inline-flex items-center">
+    <a className="flex items-center font-semibold text-sm text-black hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:focus:text-blue-500" href="/news/Jk97A68J4rf9">
+      Articulos
+    </a>
+  </li>
+</ol>
               <address className="flex items-center mb-6 not-italic">
                   <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                      <img className="mr-4 w-16 h-16 rounded-full" src="/twologo.png" alt="Pol Capdevila"></img>
                       <div>
                           <p rel="author" className="text-xl font-extrabold text-gray-900">Pol Capdevila</p>
-                          <p className="text-base text-gray-500 dark:text-gray-400">Co-fundador</p>
+                          <p className="text-base text-gray-500 dark:text-gray-400">Chief Operating Officer</p>
                       </div>
                   </div>
               </address>
