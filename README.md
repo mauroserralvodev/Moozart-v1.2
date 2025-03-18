@@ -7,3 +7,5 @@ Login: Temporarily replaced with clerk
 AI functions: Disabled
 Platform functions (marketplace, crypto): Disabled
 Hosting: Vercel
+
+![image](https://github.com/user-attachments/assets/c4f0cf48-72e7-4cbd-b99b-608b02469dfa)
