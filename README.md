@@ -1,4 +1,4 @@
-Version 1.2 of the moozart platform, this platform is not currently in operation, but you can visit it at: moozart.vercel.app. 
+Version 1.2 of the moozart platform, this platform is not currently in operation, but you can visit it at: mz.brinpage.com. 
 
 The code that can be seen in this repository does not contain the backend of the marketplace or login.
 
